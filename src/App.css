@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: start ;
 }
 
 .App-logo {
@@ -13,15 +13,168 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+
+.container{
+  background-color: ghostwhite;
+  width: 907px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  /* padding-ri: 10px; */
+  /* margin-right: 100px; */
+
+  /* margin: auto 0px; */
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  /* min-height: 5000px; */
+  /* width: 1100px;
+  background-color: light-grey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* align-items: flex-start; */
+  /* justify-content: start center;
+  font-size: calc(2px + 2vmin);
   color: white;
+  margin:"auto";
+  padding-top: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  margin-left: 100px; */ 
+  /* border: 1px solid red; */
+}
+
+.col-8{
+  padding-right: 20px;
+  padding-top: 0px;
+  margin-left: 20px;
+}
+
+.col-4 {
+  /* border: 1px solid grey; */
+  padding-bottom: 600px;
+  padding-top: 5px;
+  
+  
+}
+
+.input{
+  padding-right: 5px;
+  padding-left: 5px;;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* border: 1px solid grey; */
+  margin-top:  5px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+
+.btn-outline-dark{
+  padding-top: 14px;
+  width: 100px;
+  /* align-items: flex-end; */
+}
+
+.form-control{
+  border-radius: 5px;
+}
+
+
+
+.form-border {
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
+
+.badge {
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 10px;
+  /* width: 15px; */
+  font-size: 10px;
+}
+
+.card{
+  width: 250px;
+}
+
+.col-6{
+  width: 50%;
+  border: 1px soli grey;
+  border-radius: 5px;
+  grid-gap: 2px;
+  padding-top: 5px;
+  text-align: start;
+  margin: 10px;
+}
+
+.col-12{
+  text-align: start;
+
+}
+
+.text-start {
+  color: black;
+  margin: 8px;
+}
+
+.text-start1 {
+  margin: 1px;
+}
+
+.align {
+  text-align: start;
+  flex-direction: column;
+  justify-items: center;
+  padding-top: 2px;
+  margin-left: 8px;
+  
+}
+
+.alignright{
+  text-align: right;
+}
+
+.text-muted{
+  margin: 8px;
+  text-align: left;
+}
+
+.col-md-6{
+  color: black;
+  text-align: end;
+}
+.col-5{
+  text-align: start;
+}
+
+
+.App1-header {
+  background-color:gray;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: start; */
+  font-size: calc(2px + 2vmin);
+  color: whitesmoke;
+}
+
+.grid-align  {
+  width: 100%;
+  background-color: gray;
+  padding: 10px;
+  display: grid;
+  /* width: 200px;
+  height: 200px; */
+  /* display: grid; */
+  /* padding-top: 10px; */
+}
+
+.input {
+  width: 100%;
+  margin: 2px;
 }
 
 .App-link {
